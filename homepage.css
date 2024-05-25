@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    text-align:start;
+    align-items:center;
+    justify-content: center;
+    background-image: url("C:\Users\user\Downloads\child.jpg");
+    backdrop-filter: blur(3px);
+    backdrop-filter: brightness(0.75);
+    -webkit-backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: brightness(0.75);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position:relative;
+    top: 0;
+}
+
+.textformat {
+    text-align: center;
+    font-size: 40px;
+    color:#95ff00;
+}
+.box {
+    width: 270px;
+    height: 180px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 230%;
+    background-color: rgba(26, 75, 96, 0.421);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.styled-button {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #007BFF, #0056b3);
+    color: #007BFF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.styled-button i {
+    font-size: 20px;
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.styled-button:active {
+    background-color: #004080;
+}
+
+.styled-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the boxes */
+    margin-top: 80px; /* Adjust the value based on header height */
+}
+.box p {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.h1 {
+    text-align: center;
+    font-size:350%;
+    color: hwb(64 0% 0%);
+}
